@@ -33,7 +33,7 @@ au FileType cc,cpp map <F5> : !g++ -Wall -g % -o %<.out
 au FileType cc,cpp map <F6> : !./%<.out
 
 au FileType java map <F5> : !javac -g %
-au FileType java map <F6> : !java -g %<
+au FileType java map <F6> : !java %<
 
 au FileType py map <F6> : !python %
 
